@@ -28,6 +28,8 @@ export default function App({ Component, pageProps }) {
         <meta name="author" content="abyditya" />
         <meta name="robots" content="index, follow" />
 
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css" />
+
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://abyditya.space/" />
         <meta property="og:title" content="abyditya" />

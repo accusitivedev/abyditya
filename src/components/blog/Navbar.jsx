@@ -14,11 +14,11 @@ export default function Navbar() {
                         <li className="nav-item">
                             <Link className="nav-link" href="/">home</Link>
                         </li>
-                        {/* <li className="nav-item">
-                            <Link className="nav-link" href="/blog">blog</Link>
-                        </li> */}
                         <li className="nav-item">
-                            <Link className="nav-link active" href="/contact">contact</Link>
+                            <Link className="nav-link active" href="/blog">blog</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" href="/contact">contact</Link>
                         </li>
                     </ul>
                 </div>
