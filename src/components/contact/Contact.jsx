@@ -23,13 +23,13 @@ export default function Contact() {
                         <h1 className="subtitle mt-1">Let&apos;s work together</h1>
                         <p className="description">contact details</p>
                         <ul>
-                            <li><i className="fa-light fa-envelope"></i> mail@abyditya.space</li>
+                            <li><a href="mailto:mail@abyditya.space"><i className="fa-light fa-envelope"></i>mail@abyditya.space</a></li>
                             <li><i className="fa-light fa-location-dot"></i> indonesia</li>
                         </ul>
                     </div>
                     <div className="col">
-                        <div className="alert alert-secondary my-alert d-none" role="alert">
-                            <strong>Success!</strong> we just received your contact
+                        <div className="alert alert-danger my-alert" role="alert">
+                            Coming Soon
                         </div>
                         <form name="contact">
                             <div className="mb-3">
@@ -50,7 +50,7 @@ export default function Contact() {
                                 <textarea name="message" rows={3} placeholder="Hello abyan, can you help me with... *" className="form-control" required></textarea>
                                 <hr className="form-hr" />
                             </div>
-                            <button onClick={alrt} className="btn-kirim btn btn-submt">Send it!</button>
+                            <button onClick={alrt} className="btn-kirim btn btn-submt disabled">Send it!</button>
                         </form>
                     </div>
                 </div>

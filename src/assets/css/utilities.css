@@ -30,7 +30,7 @@
 }
 
 #navbarNav>ul>li:nth-child(n)>a {
-    color: rgb(235, 235, 235);
+    color: rgba(197, 197, 197, 0.732);
     margin: 0 0.5rem;
     text-transform: capitalize;
 }
@@ -41,7 +41,7 @@
 } */
 
 #navbarNav>ul>li:nth-child(n)>a.active {
-    color: rgba(197, 197, 197, 0.732);
+    color: rgb(235, 235, 235);
 }
 
 /*
@@ -105,13 +105,13 @@
 }
 
 .hero .banner {
-    background: url('https://cdn.abyditya.space/r/BannerCode.png') !important;
+    background: url('https://cdn.abyditya.space/r/bannerCodeIntro.png') !important;
     background-position: center center !important;
     margin: 0 .9rem !important;
     background-size: cover !important;
     position: relative !important;
     border-radius: 15px !important;
-    min-height: 320px !important;
+    min-height: 310px !important;
     padding-top: 60px !important;
     height: auto !important;
 }
@@ -325,18 +325,33 @@ footer p.title a:hover {
     margin: 1.5rem 0;
 }
 
-.contact ul li {
+.contact ul li,
+.contact ul li a {
     color: white;
     list-style-type: none;
     margin-left: -2rem !important;
 }
 
-.contact ul li i {
-    margin: 0 0.5rem 0 0;
+.contact ul li i,
+#__next > section > div > div > div:nth-child(1) > ul > li:nth-child(1) > a {
+    margin: 0 0.5rem 0 0 !important;
+    text-decoration: none;
 }
+
+#__next > section > div > div > div:nth-child(1) > ul > li:nth-child(1) > a:hover {
+    opacity: 90%;
+} 
 
 .contact ul li:nth-child(2) i {
     margin: 0 .7rem 0 0;
+}
+
+.contact .alert {
+    background: #ffffff;
+    color: black;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 5px solid rgb(224, 224, 224);
 }
 
 /*
