@@ -8,6 +8,11 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "dependencies": {
     "bootstrap": "^5.2.3",
     "eslint": "8.35.0",
